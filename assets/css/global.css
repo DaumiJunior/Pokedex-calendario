@@ -25,3 +25,17 @@ body {
         border-radius: 1rem;
     }
 }
+.search-bar {
+    background: linear-gradient(to right, #3498db, #e74c3c);
+    border-radius: 25px;
+    padding: 10px;
+  }
+  
+  .search-bar input[type="text"] {
+    border: none;
+    outline: none;
+    width: 200px;
+    background-color: transparent;
+    color: white;
+  }
+  
