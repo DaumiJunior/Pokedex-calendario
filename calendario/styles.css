@@ -1,0 +1,77 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+    color: black;
+    box-shadow: black 2px 2px 1px;
+  }
+  
+  /* Estilo para o container da caixa */
+  .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo para o calendário */
+  .calendar {
+    width: 320px;
+    background-color: #2e8b57; /* Verde para simbolizar liberdade */
+    border-radius: 12px;
+    box-shadow: 0px 4px 6px rgba(2, 2, 2, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Estilo para o cabeçalho do mês e ano */
+  #monthYear {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo para os dias da semana */
+  .weekdays {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    justify-content: space-between;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #2e8b57; /* Verde para simbolizar liberdade */
+    color: white;
+    border-radius: 12px;
+  }
+  
+  /* Estilo para cada dia da semana */
+  .weekday {
+    width: calc(100% / 7);
+    text-align: center;
+  }
+  
+  /* Estilo para os dias do mês */
+  .days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    background-color: #faebd7; /* Tom claro para simbolizar igualdade */
+    box-shadow: 2px 2px 0px black;
+    border-radius: 12px;
+    color: black;
+  }
+  
+  /* Estilo para marcar o dia atual em azul */
+  .current-day {
+    background-color: blue;
+    color: rgb(255, 245, 245);
+    border-radius: 3px;
+  }
